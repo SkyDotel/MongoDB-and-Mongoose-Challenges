@@ -16,3 +16,5 @@ const personSchema = new Schema({
 });
 
 const Person = mongoose.model('Person', personSchema);
+
+exports.PersonModel = Person;
